@@ -21,5 +21,4 @@ def home(request):
         'experiences': experiences,
         'projects': projects,
     }
-
     return render(request, 'home.html', context)
